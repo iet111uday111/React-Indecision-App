@@ -1,32 +1,89 @@
 'use strict';
 
-var nameVar = 'Uday';
-var nameVar = 'Mike';
-console.log('nameVar', nameVar);
+console.log('App.js is running!');
 
-var namelet = 'Jen';
-namelet = 'Julie';
-console.log('namelet', namelet);
+// JSX - JavaScript XML
 
-var nameConst = 'Frank';
-console.log('nameConst', nameConst);
+var app = {
+    title: 'Indecision App',
+    subtitle: 'Put your life in the hands of a computer',
+    options: ['One', 'Two']
+};
 
-function getPetName() {
-  var petName = 'Hal';
-  return petName;
+var template = React.createElement(
+    'div',
+    null,
+    React.createElement(
+        'h1',
+        null,
+        app.title
+    ),
+    app.subtitle && React.createElement(
+        'p',
+        null,
+        app.subtitle
+    ),
+    React.createElement(
+        'p',
+        null,
+        app.options.length > 0 ? 'Here are the options' : 'No Options'
+    ),
+    React.createElement(
+        'ol',
+        null,
+        React.createElement(
+            'li',
+            null,
+            'Item One'
+        ),
+        React.createElement(
+            'li',
+            null,
+            'Item Two'
+        )
+    )
+);
+
+var user = {
+    name: 'uday',
+    age: 16,
+    location: 'Pune'
+};
+
+function getLocation(location) {
+    if (location) {
+        return React.createElement(
+            'p',
+            null,
+            'Location: ',
+            location
+        );
+    } else {
+        return React.createElement(
+            'p',
+            null,
+            'Location: Unknown'
+        );
+    }
 }
 
-var petName = getPetName();
-console.log(petName);
+var templateTwo = React.createElement(
+    'div',
+    null,
+    React.createElement(
+        'h1',
+        null,
+        user.name ? user.name : 'Anonymous'
+    ),
+    user.age && user.age >= 18 && React.createElement(
+        'p',
+        null,
+        'Age: ',
+        user.age
+    ),
+    getLocation(user.location)
+);
 
-//Block Level Scope
+var appRoot = document.getElementById('app');
 
-var fullName = 'Udayaditya Singh';
-var firstName = void 0;
-
-if (fullName) {
-  firstName = fullName.split(' ')[0];
-  console.log(firstName);
-}
-
-console.log(firstName);
+ReactDOM.render(templateTwo, appRoot);
