@@ -1,25 +1,47 @@
 'use strict';
 
-var square = function square(x) {
-  return x * x;
+/**
+ * arguments object - no longer bound with arrow functions
+ * @param  a 
+ * @param  b 
+ */
+var add = function add(a, b) {
+
+    // console.log(arguments);
+
+    return a + b;
 };
 
-// const squareArrow =  (x) => {
-//     return x*x;  
-// };
+console.log(add(55, 56));
 
-var squareArrow = function squareArrow(x) {
-  return x * x;
+/**
+ * this keyword - no longer bound with arrow functions
+ */
+
+var user = {
+    name: 'Udayaditya Singh',
+    cities: ['Pune', 'Indore', 'Banglore'],
+    printPlacesLived: function printPlacesLived() {
+        var _this = this;
+
+        return this.cities.map(function (city) {
+            return _this.name + ' has lived in ' + city;
+        });
+    }
 };
 
-// const getFirstName = (fullName) => {
-//     return fullName.split(' ')[0]
-// }
+console.log(user.printPlacesLived());
 
-var getFirstName = function getFirstName(fullName) {
-  return fullName.split(' ')[0];
+var multiplier = {
+    numbers: [10, 20, 30],
+    multiplyBy: 3,
+    multiply: function multiply() {
+        var _this2 = this;
+
+        return this.numbers.map(function (number) {
+            return number * _this2.multiplyBy;
+        });
+    }
 };
 
-console.log(square(8));
-console.log(squareArrow(9));
-console.log(getFirstName('Udayaditya Singh'));
+console.log(multiplier.multiply());
