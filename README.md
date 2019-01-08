@@ -840,3 +840,13 @@ LICENSE
 
 [Conditional Rendering](https://reactjs.org/docs/conditional-rendering.html)
 
+[JavaScript ES6+: var, let, or const?](https://medium.com/javascript-scene/javascript-es6-var-let-or-const-ba58b8dcde75)
+
+[Concepts to become an advanced React developer](https://medium.com/wineofbits/concepts-to-become-an-advanced-react-developer-684d90c086c2)
+
+[Let’s use const! Here’s why.](https://ponyfoo.com/articles/var-let-const)
+
+[Difference Between var, let, and const Keywords in JavaScript](https://dzone.com/articles/javascript-difference-between-var-let-and-const-ke)
+
+[JavaScript fundamentals before learning React](https://www.robinwieruch.de/javascript-fundamentals-react-requirements/)
+
