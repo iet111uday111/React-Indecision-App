@@ -870,3 +870,13 @@ LICENSE
 
 [JavaScript Arrow Functions: How, Why, When (and WHEN NOT) to Use Them](https://zendev.com/2018/10/01/javascript-arrow-functions-how-why-when.html)
 
+[Array Methods Explained : Filter vs Map vs Reduce vs Foreach](https://codeburst.io/array-methods-explained-filter-vs-map-vs-reduce-vs-foreach-ea3127c6d319)
+
+[Why you should replace forEach with map and filter in JavaScript](https://gofore.com/en/why-you-should-replace-foreach/)
+
+[The Array native every(), filter(), map(), some(), forEach() methods](https://coderwall.com/p/_ggh2w/the-array-native-every-filter-map-some-foreach-methods)
+
+[What is the difference between .map, .every, and .forEach?](https://stackoverflow.com/questions/7340893/what-is-the-difference-between-map-every-and-foreach)
+
+[Performance-wise, is the for loop better than .map(), .reduce(), or .filter?](https://www.reddit.com/r/javascript/comments/4nvcd5/performancewise_is_the_for_loop_better_than_map/)
+
