@@ -850,3 +850,23 @@ LICENSE
 
 [JavaScript fundamentals before learning React](https://www.robinwieruch.de/javascript-fundamentals-react-requirements/)
 
+[ES6 Arrow Functions: Fat and Concise Syntax in JavaScript](https://www.sitepoint.com/es6-arrow-functions-new-fat-concise-syntax-javascript/)
+
+[Arrow functions MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions)
+
+[When (and why) you should use ES6 arrow functions — and when you shouldn’t](https://medium.freecodecamp.org/when-and-why-you-should-use-es6-arrow-functions-and-when-you-shouldnt-3d851d7f0b26)
+
+[JavaScript: Arrow Functions for Beginners](https://codeburst.io/javascript-arrow-functions-for-beginners-926947fc0cdc)
+
+[Arrow functions](http://exploringjs.com/es6/ch_arrow-functions.html)
+
+[A TUTORIAL TO JAVASCRIPT ARROW FUNCTIONS](https://flaviocopes.com/javascript-arrow-functions/)
+
+[Arrow functions in Javascript](https://www.geeksforgeeks.org/arrow-functions-in-javascript/)
+
+[Arrow Functions in JavaScript](https://tylermcginnis.com/arrow-functions/)
+
+[Arrow functions revisited](https://javascript.info/arrow-functions)
+
+[JavaScript Arrow Functions: How, Why, When (and WHEN NOT) to Use Them](https://zendev.com/2018/10/01/javascript-arrow-functions-how-why-when.html)
+
