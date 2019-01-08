@@ -838,5 +838,5 @@ LICENSE
 
 [ReactJS | Conditional Rendering](https://www.geeksforgeeks.org/reactjs-conditional-rendering/)
 
-[Conditional Rendering](Conditional Rendering)
+[Conditional Rendering](https://reactjs.org/docs/conditional-rendering.html)
 
