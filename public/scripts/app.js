@@ -149,7 +149,7 @@ var Options = function Options(props) {
             { onClick: props.handleDeleteOptions },
             'Remove All'
         ),
-        undefined.props.options.map(function (option) {
+        props.options.map(function (option) {
             return React.createElement(Option, { key: option, optionText: option });
         })
     );
@@ -167,11 +167,11 @@ var Options = function Options(props) {
 //     }
 // }
 
-var Option = function Option() {
+var Option = function Option(props) {
     return React.createElement(
         'div',
         null,
-        undefined.props.optionText
+        props.optionText
     );
 };
 // class Option extends React.Component {
